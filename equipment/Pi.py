@@ -52,8 +52,8 @@ class Pi:
     def heartbeat_examine(self):
         second = 0
         while self.receiveMsg.quit_sys == 0:
-            # 3分钟
-            if second < 10:
+            # 2分钟
+            if second < 20:
                 time.sleep(6)
                 second += 1
             else:
