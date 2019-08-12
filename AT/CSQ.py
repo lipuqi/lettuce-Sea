@@ -10,7 +10,7 @@ class CSQ(ATBase):
         super(CSQ, self).__init__(serialPort, receiveMsg)
         self.at_name = "CSQ"
 
-    def query_at(self):
+    def execute_at(self):
         super().on_compile_error_result("99,99")
-        return super().query_at()
+        return super().execute_at()
 

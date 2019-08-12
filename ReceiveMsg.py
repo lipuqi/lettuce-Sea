@@ -26,8 +26,8 @@ class ReceiveMsg:
                     print(at_result[1])
                     self.nnmi.add_order(at_result[1])
                 elif self.atObj:
-                    self.atObj.compile_result(result)
-                    self.atObj = None
+                    if self.atObj.compile_result(result):
+                        self.atObj = None
                 else:
                     print("未设置匹配项数据")
                     print(result)

@@ -25,7 +25,7 @@ class ATBase:
     # 发送at基础方法
     def send_at(self, data=None, at_type=None):
         retry = self.retry
-        self.serialPort.write_data(self.at_name, at_type, data)  # 调用串口基础操作-写入
+        self.serialPort.write_data(self.at_name, data, at_type)  # 调用串口基础操作-写入
         self.receiveMsg.atObj = self  # 将本类基本信息注入串口数据接收以便更新执行情况
         self.status = 0  # 复位执行结果
         time.sleep(1)
@@ -42,7 +42,7 @@ class ATBase:
                 self.off_compile_result()  # 自动复位
                 return 1
             elif self.status == 2:
-                print("执行失败，重试" + str(self.retry))
+                print("执行失败，重试" + str(4 - self.retry))
                 self.retry -= 1
                 time.sleep(2)
                 return self.send_at(data, at_type)  # 执行失败后递归调用
@@ -69,21 +69,16 @@ class ATBase:
                 elif self.at_suc_result:
                     self.status = self.compile_suc_result(at_result[1])
                     print(result)
-                else:
-                    print("校验结果匹配设置错误\n")
-                    self.status = 1
-                    print(result)
-            else:
-                print("结果没有匹配项\n")
-                self.status = 1
-                print(result)
         else:
             if self.ok.search(result):
                 self.status = 1
                 print(result)
+                return True
             elif self.error.search(result):
                 self.status = 2
                 print(result)
+                return True
+        return False  # 返回 True/False是因为表示指令执行成功
 
     # 开启错误校验结果
     def on_compile_error_result(self, error):

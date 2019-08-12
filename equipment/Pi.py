@@ -27,7 +27,7 @@ class Pi:
             return 2
         print("开始初始化")
         self.cfun.execute_at("1")  # 开启射频
-        self.csq.query_at()  # 查询信号
+        self.csq.execute_at()  # 查询信号
         time.sleep(5)
         cg_res = self.cgatt.integration_at("1")  # 入网
         # 查看入网是否成功
@@ -61,7 +61,7 @@ class Pi:
         while self.receiveMsg.quit_sys == 0:
             # 每2分钟上报一次
             if second < 20:
-                time.sleep(6)
+                time.sleep(6)  # 这里之所以设6是因为设短时间延时利于及时退出
                 second += 1
             else:
                 result = self.nmgs.execute_at("0501")

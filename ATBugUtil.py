@@ -18,7 +18,9 @@ serialPort = "/dev/ttyAMA0"  # 串口
 '''serialPort = "COM3"  # 串口'''
 baudRate = 9600  # 波特率
 
-
+"""
+所有模块初始化
+"""
 nnmi = NNMI()
 mSerial = SerialPort(serialPort, baudRate)
 receiveMsg = ReceiveMsg(mSerial, nnmi)
@@ -48,4 +50,4 @@ if __name__ == '__main__':
         print("初始化失败，现进入退出阶段")
         pi_equipment.execute_quit()
     else:
-        t3.start()
+        t3.start()  # 开启心跳上报线程

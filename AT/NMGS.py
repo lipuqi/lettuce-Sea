@@ -12,6 +12,6 @@ class NMGS(ATBase):
 
     def execute_at(self, data):
         new_data = str(int(len(data) / 2)) + "," + data  # 拼接数据的长度部分
-        super().execute_at(new_data)
+        return super().execute_at(new_data)
 
 
