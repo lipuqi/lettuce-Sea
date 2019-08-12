@@ -18,6 +18,7 @@ serialPort = "/dev/ttyAMA0"  # 串口
 '''serialPort = "COM3"  # 串口'''
 baudRate = 9600  # 波特率
 
+
 nnmi = NNMI()
 mSerial = SerialPort(serialPort, baudRate)
 receiveMsg = ReceiveMsg(mSerial, nnmi)
@@ -39,9 +40,10 @@ if __name__ == '__main__':
     t1 = threading.Thread(target=receiveMsg.receive_data)
     t2 = threading.Thread(target=drive.order_monitor)
     t3 = threading.Thread(target=pi_equipment.heartbeat_examine)
-    t1.start()
-    t2.start()
-    in_res = pi_equipment.sys_init()
+    t1.start()  # 开启接收信息的线程
+    t2.start()  # 开启监听待处理命令的线程
+    in_res = pi_equipment.sys_init()  # 执行初始化
+    # 初始化失败退出，没有失败则开启心跳上报
     if in_res == 2:
         print("初始化失败，现进入退出阶段")
         pi_equipment.execute_quit()

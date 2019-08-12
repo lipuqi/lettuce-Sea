@@ -1,47 +1,42 @@
-import re
+from AT.ATBase import ATBase
 import time
 
+"""
+AT重启指令
+"""
 
-class NRB:
+
+class NRB(ATBase):
 
     def __init__(self, serialPort, receiveMsg):
-        super(NRB, self).__init__()
-        self.serialPort = serialPort
-        self.receiveMsg = receiveMsg
+        super(NRB, self).__init__(serialPort, receiveMsg)
         self.at_name = "NRB"
-        self.at_error_result = None
-        self.at_suc_result = None
-        self.status = 0
-        self.at_result_pattern = None
-        self.retry = 1
 
-    def execute_at(self, data=None):
+    #  执行重启
+    def execute_at(self):
         print("执行重启")
-        self.receiveMsg.set_is_pause(1)
-        self.serialPort.write_data(self.at_name, None, data)
-        self.serialPort.port_close()
+        super().receiveMsg.set_is_pause(1)  # 全体线程置为暂停位
+        super().serialPort.write_data(self.at_name, None, None)
+        super().serialPort.port_close()  # 关闭串口
         time.sleep(3)
-        self.serialPort.port_open()
-        self.receiveMsg.atObj = self
-        self.status = 0
+        super().serialPort.port_open()  # 开启串口
+        super().receiveMsg.atObj = self
+        super().status = 0
         time.sleep(3)
-        self.receiveMsg.set_is_pause(0)
+        super().receiveMsg.set_is_pause(0)  # 全体线程置为正常
         time.sleep(1)
         while True:
-            if self.retry == 4:
+            if super().retry == 4:
                 print("执行失败，不再重试")
-                self.retry = 1
+                super().retry = 1
                 return 2
-            if self.status == 1:
+            if super().status == 1:
                 print("执行成功")
-                self.retry = 1
+                super().retry = 1
                 time.sleep(3)
                 return 1
-            elif self.status == 2:
-                print("执行失败，重试" + str(self.retry))
-                self.retry += 1
+            elif super().status == 2:
+                print("执行失败，重试" + str(super().retry))
+                super().retry += 1
                 time.sleep(2)
-                return self.execute_at(data)
-
-    def update_status(self, sta):
-        self.status = sta
+                return super().execute_at()
