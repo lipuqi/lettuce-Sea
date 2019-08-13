@@ -15,8 +15,8 @@ from equipment.Pi import Pi
 from equipment.Drive import Drive
 import threading
 
-'''serialPort = "/dev/ttyAMA0"'''  # 串口
-serialPort = "COM3"  # 串口
+serialPort = "/dev/ttyAMA0"  # 串口
+'''serialPort = "COM3"  # 串口'''
 baudRate = 9600  # 波特率
 
 """
