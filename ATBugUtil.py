@@ -1,6 +1,7 @@
 from SerialPort import SerialPort
 from ReceiveMsg import ReceiveMsg
 from AT.NNMI import NNMI
+from AT.QLWEVTIND import QLWEVTIND
 from AT.NMGS import NMGS
 from AT.CFUN import CFUN
 from AT.CGATT import CGATT
@@ -14,16 +15,17 @@ from equipment.Pi import Pi
 from equipment.Drive import Drive
 import threading
 
-serialPort = "/dev/ttyAMA0"  # 串口
-'''serialPort = "COM3"  # 串口'''
+'''serialPort = "/dev/ttyAMA0"'''  # 串口
+serialPort = "COM3"  # 串口
 baudRate = 9600  # 波特率
 
 """
 所有模块初始化
 """
 nnmi = NNMI()
+qlwevtind = QLWEVTIND()
 mSerial = SerialPort(serialPort, baudRate)
-receiveMsg = ReceiveMsg(mSerial, nnmi)
+receiveMsg = ReceiveMsg(mSerial, nnmi, qlwevtind)
 
 nmgs = NMGS(mSerial, receiveMsg)
 csq = CSQ(mSerial, receiveMsg)

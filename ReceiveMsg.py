@@ -4,9 +4,10 @@
 
 class ReceiveMsg:
 
-    def __init__(self, serialPort, nnmi):
+    def __init__(self, serialPort, nnmi, qlwevtind):
         super(ReceiveMsg, self).__init__()
         self.nnmi = nnmi   # 接收数据模块
+        self.qlwevtind = qlwevtind   # 接收平台状态模块
         self.serialPort = serialPort  # 串口基础操作模块
         self.atObj = None  # 发送AT指令的模块
         self.quit_sys = 0  # 退出（此参数3个线程同步）
@@ -19,12 +20,17 @@ class ReceiveMsg:
                 pass
             result = self.serialPort.read_data()  # 接收数据
             if result:
-                # 先匹配是否为上报数据，不是则匹配是否为发送指令的回值
+                # 先匹配是否为上报数据和平台上报状态，不是则匹配是否为发送指令的回值
                 if self.nnmi.at_result_pattern.search(result):
                     at_result = result.split(":")
                     print("接到数据")
                     print(at_result[1])
                     self.nnmi.add_order(at_result[1])
+                elif self.qlwevtind.at_result_pattern.search(result):
+                    at_result = result.split(":")
+                    print("接到平台状态")
+                    print(at_result[1])
+                    self.qlwevtind.oc_analysis_msg(at_result[1])
                 elif self.atObj:
                     if self.atObj.compile_result(result):
                         self.atObj = None
