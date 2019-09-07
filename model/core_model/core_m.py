@@ -46,6 +46,9 @@ class core_m:
             log.error("switch_model_command 执行失败")
         return Encoder(self .conf).packaging_commands(command_name, result_param)
 
+    def quit_model(self):
+        pass
+
 
 
 

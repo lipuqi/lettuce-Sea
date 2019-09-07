@@ -185,7 +185,9 @@ class Nb_bc35g:
 
     # 退出
     def quit_nb(self):
-        return self.execute_at(nb_model.AT_order.RF_order, "0")
+        self.access_idle()
+        self.execute_at(nb_model.AT_order.RF_order, "0")
+        self.port_close()
 
     # 模组健康检测
     def health_monitoring(self):

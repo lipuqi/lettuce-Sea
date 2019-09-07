@@ -1,3 +1,6 @@
+Basic_info:
+  machine_code: 863716040748763
+
 Logger:
   log_path: LOG/lettuce-sea.log
   level: debug

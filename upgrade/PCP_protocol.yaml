@@ -1,0 +1,23 @@
+Protocol:
+  '19':
+    command_name: query_device_version
+    req:
+      - data_name: mid
+        data_type: int
+        data_length: 2
+      - data_name: led_status
+        data_type: int
+        data_length: 1
+    res:
+      - data_name: mid
+        data_type: int
+        data_length: 2
+        default_data: 0
+      - data_name: errcode
+        data_type: int
+        data_length: 1
+        default_data: 0
+      - data_name: result
+        data_type: int
+        data_length: 1
+        default_data: 0

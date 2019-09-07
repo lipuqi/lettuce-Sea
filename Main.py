@@ -9,44 +9,49 @@ import time
 
 log = Logger().logger
 
-
-def quit_sys():
-    time.sleep(60 * 10)
-    if mm.current_connect_model.access_idle():
-        if mm.current_connect_model.quit_nb():
-            rm.read_data_thread_quit = True
-            rm.new_message_quit = True
-            rm.send_message_quit = True
-            rm.inform_quit = True
-            jm.scheduler.shutdown()
+rm = None
+mm = None
+core = None
+lm = None
+jm = None
 
 
-if __name__ == '__main__':
+def start_sys():
+    global rm, mm, core, lm, jm
     log.info("----主线程启动----")
     rm = Running_manage()
     mm = Model_manage(rm)
     core = core_m(rm, mm)
     lm = Listener_manage(rm, mm, core)
-
     log.info("----开始启动通信模块，消息处理模块监听----")
-    connect_model = threading.Thread(target=lm.listener_connect_model)
-    inform = threading.Thread(target=lm.listener_inform)
-    send_message = threading.Thread(target=lm.listener_send_message)
-    connect_model.start()
-    send_message.start()
-    inform.start()
+    threading.Thread(target=lm.listener_connect_model).start()
+    threading.Thread(target=lm.listener_inform).start()
+    threading.Thread(target=lm.listener_send_message).start()
 
     log.info("----开始启动通信模块初始化----")
     if mm.current_connect_model.init():
-        new_message = threading.Thread(target=lm.listener_new_message)
-        new_message.start()
+        threading.Thread(target=lm.listener_new_message).start()
         log.info("----通信模块初始化成功----")
         jm = Job_manage(mm, core)
-        quit_sys()
     else:
         log.info("----通信模块初始化失败----")
-        rm.read_data_thread_quit = True
-        rm.new_message_quit = True
-        rm.send_message_quit = True
-        rm.inform_quit = True
+
+
+def quit_sys():
+    global rm, mm, core, lm, jm
+    rm.quit()
+    mm.quit()
+    core.quit_model()
+    jm.scheduler.shutdown()
+    rm = None
+    mm = None
+    core = None
+    lm = None
+    jm = None
+
+
+if __name__ == '__main__':
+    start_sys()
+    time.sleep(5 * 60)
+    quit_sys()
 

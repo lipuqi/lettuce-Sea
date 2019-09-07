@@ -66,3 +66,6 @@ class led_bc35g:
         properties_name = "current_led_pattern"
         result_param = [self.led.get_pattern()]
         return Encoder(self.conf).packaging_properties(properties_name, result_param)
+
+    def quit_model(self):
+        self.led.gpio_quit()

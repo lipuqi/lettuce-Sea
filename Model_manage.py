@@ -38,4 +38,12 @@ class Model_manage:
         if model_name == "nb_bc35g":
             self.current_connect_model = nb_bc35g.Nb_bc35g.Nb_bc35g(self.rm)
 
+    def quit(self):
+        self.current_model.quit_model()
+        self.current_connect_model.quit_nb()
+        self.current_model = None
+        self.current_model_id = None
+        self.current_connect_model = None
+
+
 

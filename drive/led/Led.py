@@ -53,6 +53,10 @@ class Led(Basic_drive):
         self._status = 0
         self._pattern = None
 
+    def gpio_quit(self):
+        self.led_stop()
+        super().gpio_quit()
+
 
 
 
