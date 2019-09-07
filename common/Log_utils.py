@@ -2,6 +2,7 @@ import logging
 from logging import handlers
 import common.Conf_utils as Cu
 import common.File_utils as Pu
+import os
 
 # ------------------------------------------------------------------------------
 # 日志工具
@@ -22,6 +23,8 @@ class Logger:
         self._log_cof = Cu.read_action(r"conf\resource\basic_conf.yaml")["Logger"]
         self._log_path = Pu.get_project_path() + self._log_cof["log_path"]
         self.logger = logging.getLogger(self._log_path)
+        if not os.path.exists(Pu.get_project_path() + "LOG"):
+            os.mkdir(Pu.get_project_path() + "LOG")
         if not self.logger.handlers:
             self._log_init()
 
