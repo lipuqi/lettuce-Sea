@@ -1,0 +1,14 @@
+RF_order = "CFUN"  # 射频
+network_order = "CGATT"  # 入网
+signal_order = "CSQ"  # 信号
+network_conf_order = "NCONFIG"  # 网络配置
+send_msg_order = "NMGS"  # 发送消息
+get_msg_order = "NNMI"  # 接收消息
+restart_order = "NRB"  # 重启
+get_inform_order = "QLWEVTIND"  # 获取通知
+send_inform_order = "QLWULDATAEX"  # 发送 CoAP通知
+eDRX_order = "CEDRXS"  # eDRX模式
+PSM_order = "CPSMS"  # PSM模式
+CDP_server_order = "NCDP"  # 配置服务器地址
+clean_RF_order = "NCSEARFCN"  # 清除模组保存的先验频点
+band_order = "NBAND"  # 指定Band值

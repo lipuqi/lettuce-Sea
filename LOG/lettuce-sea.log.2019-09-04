@@ -1,0 +1,964 @@
+2019-09-03 22:18:00,452 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:18:49,510 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:20:49,774 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:21:35,596 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:22:22,727 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:22:54,279 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:22:54,318 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:25:28,625 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:25:28,664 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:27:21,789 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:27:21,884 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:27:55,276 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:27:55,377 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:29:05,926 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:29:06,023 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:29:31,419 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:29:31,460 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:29:31,481 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:29:32,481 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:29:33,496 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:29:33,746 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:29:33,816 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:29:34,764 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:29:34,884 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:29:34,904 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:29:35,884 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:29:35,980 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:29:36,889 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:29:36,950 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:29:37,904 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:29:38,934 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:29:39,043 - INFO: 数据进入 ERROR - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:29:39,054 - INFO: ----通信模块初始化失败---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:31]
+2019-09-03 22:29:40,578 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:32:38,976 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:32:39,073 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:32:39,095 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:32:40,097 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:32:41,112 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:32:41,388 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:32:41,419 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:32:42,399 - INFO: 执行指令 AT+NCONFIG=AUTOCONNECT,FALSE
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:32:42,494 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:32:43,407 - INFO: 执行指令 AT+NCDP=49.4.85.232,5683
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:32:43,427 - INFO: 关闭串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:40]
+2019-09-03 22:32:46,496 - INFO: 开启串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:35]
+2019-09-03 22:33:24,760 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:33:24,859 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:33:24,881 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:33:25,887 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:33:26,916 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:33:27,207 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:33:27,254 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:33:28,214 - INFO: 执行指令 AT+NCONFIG=AUTOCONNECT,FALSE
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:33:28,299 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:33:29,230 - INFO: 执行指令 AT+NCDP=49.4.85.232,5683
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:33:29,259 - INFO: 关闭串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:40]
+2019-09-03 22:33:32,320 - INFO: 开启串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:35]
+2019-09-03 22:39:18,275 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:39:18,372 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:39:18,390 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:39:19,414 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:39:20,451 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:39:20,747 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:39:20,784 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:40:57,617 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:40:57,657 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:40:57,680 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:40:58,680 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:40:59,750 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:41:00,089 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:41:00,154 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:41:01,129 - INFO: 执行指令 AT+NCONFIG=AUTOCONNECT,FALSE
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:41:01,215 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:41:02,144 - INFO: 执行指令 AT+NCDP=49.4.85.232,5683
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:41:02,160 - INFO: 关闭串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:40]
+2019-09-03 22:41:08,296 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:41:08,391 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:41:08,408 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:41:09,408 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:41:10,467 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:41:10,769 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:41:10,839 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:41:42,851 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:41:42,948 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:41:42,976 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:41:43,992 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:41:45,041 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:41:45,230 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:41:45,256 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:42:15,559 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:42:15,664 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:42:15,680 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:42:16,690 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:42:17,711 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:42:17,931 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:42:17,958 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:43:14,572 - INFO: 执行指令 AT+NCONFIG=AUTOCONNECT,FALSE
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:43:14,672 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:43:15,703 - INFO: 执行指令 AT+NCDP=49.4.85.232,5683
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:43:15,828 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:43:15,868 - INFO: 关闭串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:40]
+2019-09-03 22:43:18,876 - INFO: 开启串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:35]
+2019-09-03 22:44:24,844 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:44:24,942 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:44:24,969 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:44:25,980 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:44:27,016 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:44:27,262 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:44:27,312 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:44:28,267 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:44:28,412 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:44:28,417 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:44:29,419 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:44:29,488 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:44:30,430 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:44:30,505 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:44:31,450 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:44:32,460 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:44:32,585 - INFO: 数据进入 ERROR - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:44:32,585 - INFO: ----通信模块初始化失败---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:31]
+2019-09-03 22:44:34,072 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:49:55,694 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:49:55,734 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:49:55,750 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:49:56,759 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:49:57,819 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:49:58,550 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:49:58,615 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:49:59,569 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:49:59,832 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:49:59,857 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:00,843 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:50:00,923 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:01,849 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:50:01,935 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:02,855 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:50:02,924 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:03,865 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:50:04,000 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:08,880 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:50:09,144 - INFO: 数据进入 +CGATT:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:09,495 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:11,695 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:50:12,075 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:57:57,703 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 22:57:57,743 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 22:57:57,764 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 22:57:58,779 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 22:57:59,804 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:58:00,154 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:00,195 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:01,158 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:58:01,507 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:01,632 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:02,568 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:58:02,678 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:03,575 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:58:03,641 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:04,591 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:58:04,661 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:05,625 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:58:05,696 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:10,640 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 22:58:10,809 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:10,825 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:151]
+2019-09-03 22:58:10,825 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 22:58:10,840 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:29]
+2019-09-03 23:02:04,172 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:11]
+2019-09-03 23:02:04,273 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:17]
+2019-09-03 23:02:04,289 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:25]
+2019-09-03 23:02:05,289 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 23:02:06,329 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:06,750 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:06,776 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:07,756 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:08,025 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:08,115 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:09,036 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:09,091 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:10,048 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:10,108 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:11,083 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:11,179 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:12,088 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:12,144 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:17,097 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:17,358 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:17,358 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:17,368 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:151]
+2019-09-03 23:02:17,404 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:29]
+2019-09-03 23:02:18,439 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:18,694 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:02:19,719 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:02:20,660 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:06,700 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:03:06,739 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:03:06,755 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:03:07,758 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 23:03:08,822 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:03:09,207 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:09,217 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:10,223 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:03:10,473 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:10,508 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:11,503 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:03:11,609 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:12,531 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:03:12,631 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:13,543 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:03:14,563 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:03:14,668 - INFO: 数据进入 ERROR - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:03:14,679 - INFO: ----通信模块初始化失败---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:40]
+2019-09-03 23:03:15,924 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:27,006 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:06:27,104 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:06:27,131 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:06:28,134 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 23:06:29,197 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:29,232 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:29,552 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:29,568 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:30,558 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:30,562 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:30,733 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:30,743 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:31,758 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:31,782 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:31,868 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:32,888 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:32,897 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:33,003 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:34,008 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:34,014 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:34,104 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:35,104 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:35,124 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:35,263 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:40,271 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:40,296 - INFO: 是否重试 3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:40,430 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:40,430 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:151]
+2019-09-03 23:06:40,462 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:40,471 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:30]
+2019-09-03 23:06:41,856 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:42,116 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:51,486 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:51,516 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:51,567 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:06:52,592 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:06:52,596 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:06:53,312 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:28,148 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:07:28,246 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:07:28,263 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:07:29,265 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 23:07:30,282 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:07:30,297 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:07:30,552 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:30,563 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:31,563 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:07:31,569 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:07:31,708 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:31,759 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:32,723 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:07:32,739 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:07:32,803 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:33,739 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:07:33,743 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:07:33,789 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:34,746 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:07:34,766 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:07:35,766 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:07:35,782 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:07:35,847 - INFO: 数据进入 ERROR - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:07:35,851 - INFO: 一次流程后调用 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:41]
+2019-09-03 23:07:35,871 - INFO: 是否重试 0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:07:35,881 - INFO: ----通信模块初始化失败---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:40]
+2019-09-03 23:13:50,887 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:13:50,927 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:13:50,947 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:13:51,951 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 23:13:52,967 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:13:52,971 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:13:53,281 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:13:53,296 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:13:54,332 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:13:54,342 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:13:54,416 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:13:54,427 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:13:55,419 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:13:55,433 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:13:55,539 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:13:56,439 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:13:56,448 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:13:56,529 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:13:57,457 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:13:57,467 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:13:57,542 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:13:58,470 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:13:58,480 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:13:58,516 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:14:03,494 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:74]
+2019-09-03 23:14:03,513 - INFO: 是否重试 3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:14:03,772 - INFO: 数据进入 +CGATT:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:14:03,782 - INFO: 一次流程后调用 3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:41]
+2019-09-03 23:14:03,782 - INFO: 是否重试 2 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:14:03,836 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:14:07,260 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:14:07,446 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:42,759 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:19:42,799 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:19:42,815 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:19:43,817 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:133]
+2019-09-03 23:19:43,843 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:19:44,854 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:19:45,168 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:45,168 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:19:45,188 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:46,203 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:19:46,368 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:46,378 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:19:46,393 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:47,383 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:19:47,398 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:19:47,497 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:48,407 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:19:48,417 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:19:48,467 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:49,432 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:19:49,447 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:19:49,487 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:50,454 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:19:50,463 - INFO: 是否重试 3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:19:50,529 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:55,487 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:19:55,592 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:55,592 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:19:55,598 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:151]
+2019-09-03 23:19:55,628 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:30]
+2019-09-03 23:20:05,631 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:20:06,647 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:20:06,766 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:20:06,787 - INFO: 是否重试 1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Encoder.py[line:36]
+2019-09-03 23:20:07,843 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:75]
+2019-09-03 23:20:08,817 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:24,667 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:22:24,707 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:22:24,733 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:22:25,737 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:136]
+2019-09-03 23:22:26,822 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:22:27,337 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:27,363 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:28,366 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:22:28,591 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:28,641 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:29,646 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:22:29,745 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:30,671 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:22:30,746 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:31,697 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:22:32,721 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:22:32,847 - INFO: 数据进入 ERROR - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:22:32,887 - INFO: ----通信模块初始化失败---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:40]
+2019-09-03 23:23:42,745 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:23:42,843 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:23:42,865 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:23:43,868 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:136]
+2019-09-03 23:23:44,880 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:23:45,240 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:45,251 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:46,240 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:23:46,345 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:46,371 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:47,365 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:23:47,420 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:48,380 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:23:48,444 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:49,404 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:23:49,447 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:52,414 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:23:52,476 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:57,457 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:23:57,547 - INFO: 数据进入 +CGATT:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:23:57,607 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:24:01,129 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:24:02,553 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:25:53,465 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:25:53,505 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:25:53,521 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:25:54,526 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:136]
+2019-09-03 23:25:55,576 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:25:55,951 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:25:55,961 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:25:56,952 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:25:57,112 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:25:57,167 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:25:58,132 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:25:58,297 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:25:59,148 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:25:59,217 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:26:00,153 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:26:00,248 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:26:03,167 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:26:03,227 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:26:08,190 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:26:08,279 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:26:08,284 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:154]
+2019-09-03 23:26:08,299 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:30]
+2019-09-03 23:26:08,319 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:26:19,311 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:26:19,476 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:26:20,516 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:26:21,358 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:26,963 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:28:27,003 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:28:27,019 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:28:28,019 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:136]
+2019-09-03 23:28:29,072 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:29,262 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:29,316 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:30,262 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:30,462 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:30,521 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:31,486 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:31,622 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:32,532 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:32,607 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:33,547 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:35,937 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:36,579 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:36,634 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:41,604 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:41,713 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:41,719 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:154]
+2019-09-03 23:28:41,723 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:41,759 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:30]
+2019-09-03 23:28:42,868 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:42,873 - INFO: 新通知 None - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:60]
+2019-09-03 23:28:42,904 - INFO: 通知监听获取到数据 None - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:51]
+2019-09-03 23:28:43,033 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:43,043 - INFO: 新通知 None - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:60]
+2019-09-03 23:28:43,069 - INFO: 通知监听获取到数据 None - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:51]
+2019-09-03 23:28:52,780 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:52,970 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:28:54,040 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:28:54,871 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:27,947 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:30:27,993 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:30:28,023 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:30:29,049 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:136]
+2019-09-03 23:30:30,088 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:30,344 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:30,378 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:31,358 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:31,483 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:31,499 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:32,519 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:32,588 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:33,542 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:33,617 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:34,577 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:36,961 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:37,592 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:37,662 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:42,611 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:42,776 - INFO: 数据进入 +CGATT:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:42,847 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:45,697 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:45,697 - INFO: 新通知 0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:60]
+2019-09-03 23:30:45,711 - INFO: 通知监听获取到数据 0 - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:51]
+2019-09-03 23:30:45,776 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:45,776 - INFO: 新通知 3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:60]
+2019-09-03 23:30:45,776 - INFO: 通知监听获取到数据 3 - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:51]
+2019-09-03 23:30:47,812 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:48,032 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:48,052 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:53,036 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:78]
+2019-09-03 23:30:53,185 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:30:53,196 - INFO: 关闭串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:40]
+2019-09-03 23:30:56,210 - INFO: 开启串口 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:35]
+2019-09-03 23:53:20,523 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:53:20,562 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:53:20,579 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:53:21,592 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-03 23:53:22,661 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:22,945 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:22,980 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:23,957 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:24,187 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:24,262 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:25,198 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:25,288 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:26,207 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:26,267 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:27,217 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:29,864 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:30,248 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:30,309 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:35,257 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:35,383 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:35,383 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-03 23:53:35,407 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:30]
+2019-09-03 23:53:35,432 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:35,747 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:35,892 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:46,430 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:46,559 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:53:47,579 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:53:48,644 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:36,004 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:12]
+2019-09-03 23:54:36,046 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:18]
+2019-09-03 23:54:36,062 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:26]
+2019-09-03 23:54:37,068 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-03 23:54:38,088 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:38,427 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:38,487 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:39,493 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:39,623 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:39,652 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:40,634 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:40,745 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:41,655 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:41,730 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:42,671 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:45,023 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:45,683 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:45,758 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:50,723 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:50,888 - INFO: 数据进入 +CGATT:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:50,919 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:54,595 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:54,621 - INFO: 通知监听获取到数据 <class 'str'> - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:51]
+2019-09-03 23:54:54,736 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:54,736 - INFO: 通知监听获取到数据 <class 'str'> - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:51]
+2019-09-03 23:54:55,895 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:54:56,145 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:54:56,155 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-03 23:54:56,176 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:30]
+2019-09-03 23:54:56,185 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:55:07,207 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:55:07,432 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:55:08,457 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:55:09,328 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:31,422 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:21]
+2019-09-03 23:57:31,460 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:27]
+2019-09-03 23:57:31,483 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:35]
+2019-09-03 23:57:32,487 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-03 23:57:33,549 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:57:33,976 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:34,006 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:34,980 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:57:35,121 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:35,200 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:36,153 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:57:36,309 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:37,190 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:57:37,279 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:38,201 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:57:40,552 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:41,207 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:57:41,266 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:46,216 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-03 23:57:46,381 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:46,401 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-03 23:57:46,415 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:46,456 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:39]
+2019-09-03 23:57:48,825 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:49,180 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-03 23:57:49,251 - INFO: 已经与云平台连接成功 - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:52]
+2019-09-03 23:58:03,046 - INFO: 数据进入 +NNMI:5,0000000101 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:01,680 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:21]
+2019-09-04 00:08:01,719 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:27]
+2019-09-04 00:08:01,740 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:35]
+2019-09-04 00:08:02,759 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-04 00:08:03,831 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:08:04,121 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:04,155 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:05,131 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:08:05,460 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:05,500 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:06,467 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:08:06,537 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:07,513 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:08:07,572 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:08,532 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:08:08,608 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:11,550 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:08:11,605 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:16,561 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:08:16,792 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:08:16,792 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-04 00:08:16,812 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:39]
+2019-09-04 00:08:16,832 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:35,071 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:23]
+2019-09-04 00:09:35,112 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:29]
+2019-09-04 00:09:35,134 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:37]
+2019-09-04 00:09:36,148 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-04 00:09:37,263 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:09:37,848 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:37,913 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:38,858 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:09:39,153 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:39,193 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:40,171 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:09:40,266 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:41,197 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:09:41,318 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:42,203 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:09:42,282 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:45,208 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:09:45,273 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:50,215 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:09:50,532 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:50,548 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-04 00:09:50,583 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:09:50,583 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:41]
+2019-09-04 00:10:01,588 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:10:01,703 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:02,720 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:10:03,486 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:51,827 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:23]
+2019-09-04 00:10:51,868 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:29]
+2019-09-04 00:10:51,884 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:37]
+2019-09-04 00:10:52,884 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-04 00:10:53,924 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:10:54,299 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:54,319 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:55,322 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:10:55,532 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:55,598 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:56,578 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:10:56,679 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:57,598 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:10:57,708 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:10:58,604 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:00,986 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:01,627 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:01,792 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:06,664 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:06,908 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:06,919 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-04 00:11:06,928 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:06,953 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:41]
+2019-09-04 00:11:07,494 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:07,598 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:07,628 - INFO: 已经与云平台连接成功 - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:55]
+2019-09-04 00:11:17,982 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:18,151 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:19,217 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:20,131 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:26,616 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:23]
+2019-09-04 00:11:26,655 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:29]
+2019-09-04 00:11:26,672 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:37]
+2019-09-04 00:11:27,677 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-04 00:11:28,787 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:29,047 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:29,111 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:30,064 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:30,235 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:30,235 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:31,249 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:31,345 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:32,365 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:32,476 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:33,486 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:35,911 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:38,930 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:39,046 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:44,049 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:44,180 - INFO: 数据进入 +CGATT:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:44,230 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:48,312 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:48,463 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:48,467 - INFO: 已经与云平台连接成功 - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:55]
+2019-09-04 00:11:49,187 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:11:49,352 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:49,388 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-04 00:11:49,412 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:41]
+2019-09-04 00:11:49,438 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:53,574 - INFO: 数据进入 +NNMI:5,0000000401 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:11:53,606 - ERROR: 模块没有找到指定的执行方法 - E:\lettuce\lettuce-Sea-v1\model\led_bc35g_model\led_bc35g.py[line:30]
+2019-09-04 00:12:00,419 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:12:00,614 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:12:01,614 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:12:02,388 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:23,025 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:23]
+2019-09-04 00:13:23,065 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:29]
+2019-09-04 00:13:23,081 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:37]
+2019-09-04 00:13:24,081 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-04 00:13:25,135 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:25,446 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:25,511 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:26,456 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:26,739 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:26,809 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:27,750 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:27,865 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:28,784 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:28,880 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:29,799 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:32,230 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:32,819 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:32,920 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:37,848 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:38,118 - INFO: 数据进入 +CGATT:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:38,168 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:41,625 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:41,720 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:41,730 - INFO: 已经与云平台连接成功 - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:52]
+2019-09-04 00:13:43,131 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:13:43,326 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:43,345 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-04 00:13:43,382 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:41]
+2019-09-04 00:13:43,486 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:45,761 - INFO: 数据进入 +NNMI:5,0000000501 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:13:45,792 - ERROR: 解析命令失败，请核对配置文件中是否有该命令 - E:\lettuce\lettuce-Sea-v1\model\Decode.py[line:43]
+2019-09-04 00:13:45,792 - ERROR: 模块没有找到指定的执行方法 - E:\lettuce\lettuce-Sea-v1\model\led_bc35g_model\led_bc35g.py[line:30]
+2019-09-04 00:14:04,396 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:14:04,631 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:14:05,651 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:14:06,648 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:17:55,468 - INFO: ----主线程启动---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:23]
+2019-09-04 00:17:55,508 - INFO: ----开始启动通信模块，消息处理模块监听---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:29]
+2019-09-04 00:17:55,524 - INFO: ----开始启动通信模块初始化---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:37]
+2019-09-04 00:17:56,526 - INFO: 开始初始化 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:134]
+2019-09-04 00:17:57,616 - INFO: 执行指令 AT+NCDP?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:17:58,321 - INFO: 数据进入 +NCDP:49.4.85.232,5683 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:17:58,462 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:17:59,350 - INFO: 执行指令 AT+NBAND?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:17:59,729 - INFO: 数据进入 +NBAND:5 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:17:59,825 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:00,735 - INFO: 执行指令 AT+CEDRXS=0,5
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:00,804 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:01,743 - INFO: 执行指令 AT+CPSMS=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:01,878 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:02,755 - INFO: 执行指令 AT+CFUN=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:05,107 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:05,772 - INFO: 执行指令 AT+CGATT=1
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:05,902 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:10,792 - INFO: 执行指令 AT+CGATT?
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:10,942 - INFO: 数据进入 +CGATT:1 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:10,951 - INFO: 初始化成功 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:152]
+2019-09-04 00:18:10,961 - INFO: ----通信模块初始化成功---- - E:/lettuce/lettuce-Sea-v1/Main.py[line:41]
+2019-09-04 00:18:11,006 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:12,596 - INFO: 数据进入 +QLWEVTIND:0 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:13,022 - INFO: 数据进入 +QLWEVTIND:3 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:13,056 - INFO: 已经与云平台连接成功 - E:\lettuce\lettuce-Sea-v1\Listener_manage.py[line:52]
+2019-09-04 00:18:16,796 - INFO: 数据进入 +NNMI:5,0002000601 - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:17,811 - INFO: 执行指令 AT+NMGS=6,000300060000
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:18,011 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:32,048 - INFO: 执行指令 AT+QLWULDATAEX=3,AA34BB,0x0001
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:32,348 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]
+2019-09-04 00:18:33,363 - INFO: 执行指令 AT+CFUN=0
+ - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:76]
+2019-09-04 00:18:34,302 - INFO: 数据进入 OK - E:\lettuce\lettuce-Sea-v1\drive\nb_bc35g\Nb_bc35g.py[line:48]

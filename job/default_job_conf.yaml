@@ -1,0 +1,13 @@
+Default_job_list:
+  '0':
+    - action_name: current_model_id
+      action_cron: "0 0/1 * * * ? *"
+      action_res: True
+      action_param:
+
+  '1':
+    0:
+      - action_name: current_led_pattern
+        action_cron: "0 0/5 * * * ? *"
+        action_res: True
+        action_param:

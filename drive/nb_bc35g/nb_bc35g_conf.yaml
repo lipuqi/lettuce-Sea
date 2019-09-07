@@ -1,0 +1,7 @@
+Basic_cof:
+  serial_port: COM3
+  baud_rate: 9600
+  time_out: 0.5
+
+
+

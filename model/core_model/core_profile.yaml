@@ -1,0 +1,54 @@
+Profile:
+  model_type: '0'
+  properties:
+    current_model_id:
+      message_id: '00'
+      paras:
+        - data_name: model_id
+          data_type: int
+          data_length: 1
+          default_data: 0
+    task_result:
+       message_id: '01'
+       paras:
+         - data_name: task_id
+           data_type: int
+           data_length: 2
+           default_data:
+         - data_name: task_result
+           data_type: int
+           data_length: 1
+           default_data: 0
+
+  commands:
+    '02':
+      command_name: switch_model
+      req:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+        - data_name: model_id
+          data_type: int
+          data_length: 1
+      res:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+          default_data: 0
+        - data_name: errcode
+          data_type: int
+          data_length: 1
+          default_data: 0
+        - data_name: result
+          data_type: int
+          data_length: 1
+          default_data: 0
+    '04':
+      command_name: execute_task
+      req:
+        - data_name: task_id
+          data_type: int
+          data_length: 2
+        - data_name: task_data_id
+          data_type: int
+          data_length: 2

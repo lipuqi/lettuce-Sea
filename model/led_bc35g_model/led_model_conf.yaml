@@ -1,0 +1,28 @@
+Pattern:
+  - name: on_off
+    param:
+      0:
+        frequency: 0
+        dc: 0
+  - name: flicker
+    param:
+      1:
+        frequency: 0.5
+        dc: 20
+      50:
+        frequency: 2
+        dc: 15
+      100:
+        frequency: 5
+        dc: 10
+  - name: luminance
+    param:
+      1:
+        frequency: 100
+        dc: 10
+      50:
+        frequency: 100
+        dc: 50
+      100:
+        frequency: 100
+        dc: 100

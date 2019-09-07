@@ -1,0 +1,67 @@
+Profile:
+  model_type: '1'
+  properties:
+    current_led_status:
+      message_id: '10'
+      paras:
+        - data_name: led_status
+          data_type: int
+          data_length: 1
+          default_data: 0
+    current_led_pattern:
+      message_id: '11'
+      paras:
+        - data_name: led_pattern
+          data_type: int
+          data_length: 1
+          default_data: 0
+
+  commands:
+    '12':
+      command_name: switch_led
+      req:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+        - data_name: led_status
+          data_type: int
+          data_length: 1
+      res:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+          default_data: 0
+        - data_name: errcode
+          data_type: int
+          data_length: 1
+          default_data: 0
+        - data_name: result
+          data_type: int
+          data_length: 1
+          default_data: 0
+    '14':
+      command_name: switch_led_pattern
+      req:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+        - data_name: led_pattern
+          data_type: int
+          data_length: 1
+        - data_name: pattern_val
+          data_type: int
+          data_length: 1
+      res:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+          default_data: 0
+        - data_name: result
+          data_type: int
+          data_length: 1
+          default_data: 0
+
+
+
+
+
