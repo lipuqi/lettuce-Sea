@@ -1,6 +1,7 @@
 from common import *
 from model.Encoder import Encoder
 from queue import Queue
+import sys
 
 # ------------------------------------------------------------------------------
 # 核心模块
@@ -28,6 +29,7 @@ class core_m:
                 self.rm.send_message.put(result)
         except KeyError:
             log.error("模块没有找到指定的执行方法")
+            log.exception(sys.exc_info())
 
     def current_model_id_properties(self, params):
         properties_name = "current_model_id"
@@ -44,6 +46,7 @@ class core_m:
             result_param.append(1)
             result_param.append(1)
             log.error("switch_model_command 执行失败")
+            log.exception(sys.exc_info())
         return Encoder(self .conf).packaging_commands(command_name, result_param)
 
     def quit_model(self):

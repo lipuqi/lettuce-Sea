@@ -6,7 +6,10 @@ def byte2int(data):
 def byte2str(data):
     string = ""
     for i in range(0, len(data) // 2):
-        string += chr(byte2int(data[(i * 2):(i * 2 + 2)]))
+        res = byte2int(data[(i * 2):(i * 2 + 2)])
+        if res == 0:
+            continue
+        string += chr(res)
     return string
 
 
@@ -19,6 +22,16 @@ def str2byte(data, length):
     for i in range(0, len(data)):
         by += '%02x' % ord(data[i])
     return by.ljust(length, '0')
+
+
+def byte2bytes(data):
+    len_s = int(len(data) / 2)
+    list_nums = []
+    for i in range(0, len_s):
+        chs = data[2 * i: 2 * i + 2]
+        num = int(chs, 16)
+        list_nums.append(num)
+    return bytes(list_nums)
 
 
 def plus(data, num):

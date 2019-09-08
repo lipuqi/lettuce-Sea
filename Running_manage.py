@@ -15,7 +15,9 @@ class Running_manage:
         self.send_message = Queue()  # 发送消息队列
         self.upgrade = Queue()  # 升级消息队列
         self.inform = Queue()  # 平台通知队列
-        self.run_status = True
+
+        self.execute_running_marking = 0  # 执行运行标识 0无标识，1关闭， 2重启
+        self.running_status = 0  # 升级状态 0运行中，1启动中，3退出中
 
         self.read_data_thread_quit = False
         self.read_data_thread_pause = False
@@ -57,11 +59,3 @@ class Running_manage:
                 self._pin_in_io.remove(ios)
             while ios in self._pin_in_io:
                 self._pin_in_io.remove(ios)
-
-    def quit(self):
-        self.read_data_thread_quit = True
-        self.new_message_quit = True
-        self.send_message_quit = True
-        self.inform_quit = True
-        self.upgrade_quit = True
-        self.run_status = False

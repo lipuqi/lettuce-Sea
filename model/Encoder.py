@@ -1,4 +1,5 @@
 from common import *
+import sys
 
 # ------------------------------------------------------------------------------
 # 模块消息解析
@@ -46,6 +47,7 @@ class Encoder:
             result = _joint_param(result, paras, data)
         except KeyError:
             log.error("打包失败，请核对配置文件中是否有该参数")
+            log.exception(sys.exc_info())
             return None
         return result
 
@@ -63,6 +65,7 @@ class Encoder:
             result = _joint_param(result, com_data["res"], data)
         except KeyError:
             log.error("打包失败，请核对配置文件中是否有该参数")
+            log.exception(sys.exc_info())
             return None
         return result
 

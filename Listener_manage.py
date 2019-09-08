@@ -51,5 +51,12 @@ class Listener_manage:
                 if inform == "3":
                     log.info("已经与云平台连接成功")
 
+    def quit(self):
+        self.rm.read_data_thread_quit = True
+        self.rm.new_message_quit = True
+        self.rm.send_message_quit = True
+        self.rm.inform_quit = True
+        self.rm.upgrade_quit = True
+
 
 

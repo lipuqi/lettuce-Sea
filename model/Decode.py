@@ -1,4 +1,5 @@
 from common import *
+import sys
 
 # ------------------------------------------------------------------------------
 # 模块消息解析
@@ -40,6 +41,7 @@ class Decode:
                     params[data_name] = byte_u.byte2int(param_data)
         except KeyError:
             log.error("解析命令失败，请核对配置文件中是否有该命令")
+            log.exception(sys.exc_info())
             return None, None, None
         return model, command_name, params
 

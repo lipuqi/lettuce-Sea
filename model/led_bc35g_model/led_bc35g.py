@@ -1,5 +1,6 @@
 from common import *
 from model.Encoder import Encoder
+import sys
 
 # ------------------------------------------------------------------------------
 # led 模块
@@ -28,6 +29,7 @@ class led_bc35g:
                 self.rm.send_message.put(result)
         except KeyError:
             log.error("模块没有找到指定的执行方法")
+            log.exception(sys.exc_info())
 
     def switch_led_command(self, params):
         command_name = "switch_led"
@@ -40,6 +42,7 @@ class led_bc35g:
             result_param.append(1)
             result_param.append(1)
             log.error("switch_led_command 执行失败")
+            log.exception(sys.exc_info())
         return Encoder(self .conf).packaging_commands(command_name, result_param)
 
     def switch_led_pattern_command(self, params):
@@ -55,6 +58,7 @@ class led_bc35g:
             result_param.append(1)
             result_param.append(1)
             log.error("switch_led_pattern_command 执行失败")
+            log.exception(sys.exc_info())
         return Encoder(self.conf).packaging_commands(command_name, result_param)
 
     def current_led_status_properties(self, params):

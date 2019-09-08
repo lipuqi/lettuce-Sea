@@ -1,23 +1,110 @@
 Protocol:
-  '19':
-    command_name: query_device_version
-    req:
-      - data_name: mid
-        data_type: int
-        data_length: 2
-      - data_name: led_status
-        data_type: int
-        data_length: 1
-    res:
-      - data_name: mid
-        data_type: int
-        data_length: 2
-        default_data: 0
-      - data_name: errcode
-        data_type: int
-        data_length: 1
-        default_data: 0
-      - data_name: result
-        data_type: int
-        data_length: 1
-        default_data: 0
+  structure:
+    head:
+      data_type: int
+      data_length: 2
+      default_data: 0xFFFE
+    pcp_version:
+      data_type: int
+      data_length: 1
+      default_data: 0x01
+    msg_code:
+      data_type: int
+      data_length: 1
+      default_data:
+    check_code:
+      data_type: int
+      data_length: 2
+      default_data: 0x0000
+    data_len:
+      data_type: int
+      data_length: 2
+      default_data: 0x0000
+    data:
+      '19':
+        command_name: query_device_version
+        req:
+        res:
+          - data_name: res_code
+            data_type: int
+            data_length: 1
+            default_data: 0x00
+          - data_name: current_version
+            data_type: string
+            data_length: 16
+            default_data:
+      '20':
+        command_name: new_version_inform
+        req:
+          - data_name: new_version
+            data_type: string
+            data_length: 16
+          - data_name: upgrade_single_len
+            data_type: int
+            data_length: 2
+          - data_name: upgrade_single_num
+            data_type: int
+            data_length: 2
+          - data_name: upgrade_check_code
+            data_type: int
+            data_length: 2
+        res:
+          - data_name: res_code
+            data_type: int
+            data_length: 2
+            default_data: 0x00
+      '21':
+        command_name: download_new_version
+        res:
+          - data_name: new_version
+            data_type: string
+            data_length: 16
+            default_data: 0x0
+          - data_name: upgrade_single_id
+            data_type: int
+            data_length: 2
+            default_data: 0x0000
+        req:
+          - data_name: res_code
+            data_type: int
+            data_length: 1
+          - data_name: upgrade_single_id
+            data_type: int
+            data_length: 2
+          - data_name: upgrade_single_data
+            data_type: data
+      '22':
+        command_name: download_new_version_status
+        res:
+          - data_name: download_status
+            data_type: int
+            data_length: 1
+            default_data: 0x00
+        req:
+          - data_name: res_code
+            data_type: int
+            data_length: 1
+      '23':
+        command_name: execute_upgrade
+        req:
+        res:
+          - data_name: res_code
+            data_type: int
+            data_length: 1
+            default_data: 0x00
+      '24':
+        command_name: upgrade_status
+        res:
+          - data_name: res_code
+            data_type: int
+            data_length: 1
+            default_data: 0x00
+          - data_name: new_version
+            data_type: string
+            data_length: 16
+            default_data: 0x0
+        req:
+          - data_name: res_code
+            data_type: int
+            data_length: 1
+
