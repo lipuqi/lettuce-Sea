@@ -125,6 +125,7 @@ dmypy.json
 .pyre/
 
 /LOG/
-.idea/workspace.xml
+.idea/*.xml
+.idea/*.iml
 LOG/
 /.idea/
