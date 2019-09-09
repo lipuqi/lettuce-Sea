@@ -16,8 +16,8 @@ class Running_manage:
         self.upgrade = Queue()  # 升级消息队列
         self.inform = Queue()  # 平台通知队列
 
-        self.execute_running_marking = 0  # 执行运行标识 0无标识，1关闭， 2重启
-        self.running_status = 0  # 升级状态 0运行中，1启动中，3退出中
+        self.execute_running_marking = 0  # 执行运行标识 0运行，1关闭， 2重启, 3无状态
+        self.running_status = 0  # 运行状态 0运行中，1启动中，2退出中, 3退出成功，4无状态
 
         self.read_data_thread_quit = False
         self.read_data_thread_pause = False

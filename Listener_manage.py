@@ -9,10 +9,11 @@ log = Logger().logger
 
 
 class Listener_manage:
-    def __init__(self, running_manage, model_manage, core_m):
+    def __init__(self, running_manage, model_manage, core_m, upgrade_model):
         self.rm = running_manage
         self.mm = model_manage
         self.core_model = core_m
+        self.upgrade_model = upgrade_model
 
     def listener_connect_model(self):
         while not self.rm.read_data_thread_quit:
@@ -56,7 +57,6 @@ class Listener_manage:
         self.rm.new_message_quit = True
         self.rm.send_message_quit = True
         self.rm.inform_quit = True
-        self.rm.upgrade_quit = True
 
 
 
