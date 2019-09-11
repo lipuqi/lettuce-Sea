@@ -9,7 +9,7 @@ import os
 # 获取项目根目录
 def get_project_path():
     cur_path = os.path.abspath(os.path.dirname(__file__))
-    root_path = cur_path[:cur_path.find("lettuce-Sea-v1\\") + len("lettuce-Sea-v1\\")]
+    root_path = cur_path[:cur_path.find("lettuce-Sea\\") + len("lettuce-Sea\\")]
     return root_path
 
 
