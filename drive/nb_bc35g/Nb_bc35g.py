@@ -17,7 +17,7 @@ inform = nb_model.decode().result_cla(AT_order.get_inform_order)
 class Nb_bc35g:
 
     def __init__(self, running_manage):
-        self._basic_cof = conf_u.read_action(r"drive\nb_bc35g\nb_bc35g_conf.yaml")["Basic_cof"]
+        self._basic_cof = conf_u.read_action(r"drive/nb_bc35g/nb_bc35g_conf.yaml")["Basic_cof"]
         self.rm = running_manage
 
         self.port = serial.Serial(self._basic_cof["serial_port"], self._basic_cof["baud_rate"],
@@ -134,7 +134,7 @@ class Nb_bc35g:
     def init(self, conf_file=None):
         time.sleep(1)
         log.info("开始初始化")
-        init_conf = conf_u.read_action(r"drive\nb_bc35g\init_yml\default_init_conf.yaml")["Nb_init"]
+        init_conf = conf_u.read_action(r"drive/nb_bc35g/init_yml/default_init_conf.yaml")["Nb_init"]
         if conf_file:
             init_conf = conf_u.read_action(conf_file)["Nb_init"]
         if not self.query_at(nb_model.AT_order.CDP_server_order, suc_result=init_conf["CDP_server"]):

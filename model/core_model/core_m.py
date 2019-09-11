@@ -12,7 +12,7 @@ log = Logger().logger
 
 class core_m:
     def __init__(self, running_manage, model_manage):
-        self.conf = conf_u.read_action(r"model\core_model\core_profile.yaml")["Profile"]
+        self.conf = conf_u.read_action(r"model/core_model/core_profile.yaml")["Profile"]
         self.rm = running_manage
         self.mm = model_manage
         self.task = Queue()

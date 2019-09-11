@@ -11,8 +11,8 @@ log = Logger().logger
 
 class led_bc35g:
     def __init__(self, running_manage, led):
-        self.conf = conf_u.read_action(r"model\led_bc35g_model\led_profile.yaml")["Profile"]
-        self.model_conf = conf_u.read_action(r"model\led_bc35g_model\led_model_conf.yaml")
+        self.conf = conf_u.read_action(r"model/led_bc35g_model/led_profile.yaml")["Profile"]
+        self.model_conf = conf_u.read_action(r"model/led_bc35g_model/led_model_conf.yaml")
         self.rm = running_manage
         self.led = led
         self.action_switch = {

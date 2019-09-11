@@ -6,7 +6,7 @@ log = Logger().logger
 
 class Decode:
     def __init__(self, data):
-        self.conf = conf_u.read_action(r"upgrade\PCP_protocol.yaml")["Protocol"]
+        self.conf = conf_u.read_action(r"upgrade/PCP_protocol.yaml")["Protocol"]
         self.data = data
 
     # 解析消息

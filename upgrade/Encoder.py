@@ -25,7 +25,7 @@ def _joint_param(params, data):
 
 class Encoder:
     def __init__(self, protocol_id, data=None):
-        self.conf = conf_u.read_action(r"upgrade\PCP_protocol.yaml")["Protocol"]
+        self.conf = conf_u.read_action(r"upgrade/PCP_protocol.yaml")["Protocol"]
         self.p_id = protocol_id
         self.data = data
 

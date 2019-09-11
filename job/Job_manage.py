@@ -23,7 +23,7 @@ def parse_cron(job_id, cron, param, res_bool):
 
 class Job_manage:
     def __init__(self, model_manage, core_m):
-        self.conf = conf_u.read_action(r"job\default_job_conf.yaml")["Default_job_list"]
+        self.conf = conf_u.read_action(r"job/default_job_conf.yaml")["Default_job_list"]
         self.scheduler = BackgroundScheduler()
         self.mm = model_manage
         self.core = core_m

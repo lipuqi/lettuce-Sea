@@ -9,7 +9,7 @@ from common.Log_utils import Logger
 
 class Led(Basic_drive):
     def __init__(self, rm):
-        self._pin_id = Cu.read_action(r"drive\led\led_conf.yaml")["Pin"]
+        self._pin_id = Cu.read_action(r"drive/led/led_conf.yaml")["Pin"]
         super(Led, self).__init__(rm, pin_out_id=self._pin_id["out_io"])
         self.log = Logger().logger
 

@@ -20,9 +20,9 @@ class Model_manage:
 
     # 初始化模块管理
     def init(self):
-        init_conf = conf_u.read_action(r"conf\resource\basic_conf.yaml")["Model"]
+        init_conf = conf_u.read_action(r"conf/resource/basic_conf.yaml")["Model"]
         default_model = init_conf["default_model"]
-        model_conf = conf_u.read_action(r"model\model_conf.yaml")["model_list"]
+        model_conf = conf_u.read_action(r"model/model_conf.yaml")["model_list"]
         current_model_name = model_conf[default_model]
         self.model_initializer(current_model_name["model_main"])
         self.connect_model_initializer(current_model_name["model_connect"])
