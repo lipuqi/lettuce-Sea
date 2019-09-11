@@ -1,5 +1,5 @@
 import os
-from common.Log_utils import Logger
+from common import *
 import sys
 import zipfile
 import shutil
@@ -11,27 +11,13 @@ import shutil
 log = Logger().logger
 
 
-# 获取项目根目录
-def get_project_path():
-    cur_path = os.path.abspath(os.path.dirname(__file__))
-    root_path = cur_path[:cur_path.find("lettuce-Sea-v1\\") + len("lettuce-Sea-v1\\")]
-    return root_path
-
-
 def write_file(data, path):
     try:
-        len_s = int(len(data) / 2)
-        list_nums = []
-        for i in range(0, len_s):
-            chs = data[2 * i: 2 * i + 2]
-            num = int(chs, 16)
-            list_nums.append(num)
-        bys = bytes(list_nums)
         dirname, filename = os.path.split(path)
         if not os.path.exists(dirname):
             os.makedirs(dirname)
         f = open(path, "wb")
-        f.write(bys)
+        f.write(data)
         f.close()
     except:
         log.error("写入文件失败")

@@ -1,13 +1,12 @@
 import threading
-from common import *
+from common.Log_utils import Logger
 from Running_manage import Running_manage
 from Model_manage import Model_manage
 from Listener_manage import Listener_manage
 from model.core_model.core_m import core_m
 from job.Job_manage import Job_manage
 from upgrade.upgrade_model import upgrade_model
-import sys
-import time
+import sys, time, gc
 
 log = Logger().logger
 
@@ -27,13 +26,16 @@ def start_sys():
     global mm, core, lm, jm
     try:
         log.info("----主线程启动----")
+        rm.init()
         mm = Model_manage(rm)
         core = core_m(rm, mm)
         lm = Listener_manage(rm, mm, core, um)
+        time.sleep(1)
         log.info("----开始启动通信模块，消息处理模块监听----")
         threading.Thread(target=lm.listener_connect_model).start()
         threading.Thread(target=lm.listener_inform).start()
         threading.Thread(target=lm.listener_send_message).start()
+        time.sleep(1)
         log.info("----开始启动通信模块初始化----")
         if mm.current_connect_model.init():
             threading.Thread(target=lm.listener_new_message).start()
@@ -53,10 +55,10 @@ def quit_sys():
     global mm, core, lm, jm
     log.info("----执行退出流程----")
     try:
-        if lm:
-            lm.quit()
         if mm:
             mm.quit()
+        if lm:
+            lm.quit()
         if core:
             core.quit_model()
         if jm:
@@ -65,6 +67,7 @@ def quit_sys():
         core = None
         lm = None
         jm = None
+        gc.collect()
         log.info("----执行退出成功----")
         return True
     except:

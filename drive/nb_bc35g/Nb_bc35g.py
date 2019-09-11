@@ -40,6 +40,7 @@ class Nb_bc35g:
         log.info("关闭串口")
         self.port.flushOutput()
         self.port.close()
+        self.port = None
 
     # 读取串口数据
     def read_data(self):
@@ -50,7 +51,8 @@ class Nb_bc35g:
                 pass
             elif message.is_hit(result):
                 res = message.get_order_result()
-                if res[:4] == "FFFE":
+                r = res.split(",")
+                if r[1][:4] == "FFFE":
                     self.rm.upgrade.put(res)
                 else:
                     self.rm.new_message.put(res)
@@ -126,7 +128,7 @@ class Nb_bc35g:
     # 发送消息
     def send_msg(self, data):
         data = str(len(data) // 2) + "," + data
-        return self.execute_at(nb_model.AT_order.send_msg_order, data)
+        return self.execute_at(nb_model.AT_order.send_msg_order, data, retry=3, delay=3)
 
     # 模组初始化
     def init(self, conf_file=None):
@@ -187,6 +189,8 @@ class Nb_bc35g:
     def quit_nb(self):
         self.access_idle()
         self.execute_at(nb_model.AT_order.RF_order, "0")
+        self.rm.read_data_thread_quit = True
+        time.sleep(3)
         self.port_close()
 
     # 模组健康检测

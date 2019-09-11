@@ -34,6 +34,22 @@ class Running_manage:
         self.inform_quit = False
         self.inform_pause = False
 
+    def init(self):
+        self.read_data_thread_quit = False
+        self.read_data_thread_pause = False
+
+        self.new_message_quit = False
+        self.new_message_pause = False
+
+        self.send_message_quit = False
+        self.send_message_pause = False
+
+        self.upgrade_quit = False
+        self.upgrade_pause = False
+
+        self.inform_quit = False
+        self.inform_pause = False
+
     # 初始化输出端口
     def setup_out_io(self, out_io):
         if out_io in self._pin_out_io and out_io in self._pin_in_io:

@@ -56,6 +56,10 @@ Profile:
           data_type: int
           data_length: 2
           default_data: 0
+        - data_name: errcode
+          data_type: int
+          data_length: 1
+          default_data: 0
         - data_name: result
           data_type: int
           data_length: 1

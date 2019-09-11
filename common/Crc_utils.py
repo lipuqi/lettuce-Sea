@@ -37,7 +37,7 @@ def _crc16(crc_reg, string):
     for i in range(len(data)):
         crc_reg = (crc_reg >> 8) ^ _crc16_ccitt_table[(crc_reg ^ data[i]) & 0xff]
     result = hex(crc_reg)
-    return result[2:].upper()
+    return result[2:].rjust(4, '0').upper()
 
 
 def crc16_check(string):

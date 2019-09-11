@@ -27,7 +27,8 @@ class Listener_manage:
                 pass
             if not self.rm.new_message.empty():
                 new_message = self.rm.new_message.get()
-                model, command_name, params = decode.Decode(new_message[2:], self.core_model.conf,
+                nm = new_message.split(",")
+                model, command_name, params = decode.Decode(nm[1], self.core_model.conf,
                                                             self.mm.current_model.conf).parse_data()
                 if model == 0:
                     self.core_model.main(command_name, params=params)
@@ -53,7 +54,6 @@ class Listener_manage:
                     log.info("已经与云平台连接成功")
 
     def quit(self):
-        self.rm.read_data_thread_quit = True
         self.rm.new_message_quit = True
         self.rm.send_message_quit = True
         self.rm.inform_quit = True

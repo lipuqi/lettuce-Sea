@@ -21,7 +21,7 @@ class upgrade_model:
             "download_new_version": self.download_new_version,
             "download_new_version_status": self.download_new_version_status,
             "execute_upgrade": self.execute_upgrade,
-            "upgrade_status": self.upgrade_status,
+            "upgrade_status": self.upgrade_status_com,
         }
 
         self.init()
@@ -51,7 +51,7 @@ class upgrade_model:
             new_version["upgrade_single_len"] = params["upgrade_single_len"]
             new_version["upgrade_single_num"] = params["upgrade_single_num"]
             new_version["current_upgrade_single_num"] = 0
-            new_version["upgrade_data"] = ""
+            new_version["upgrade_data"] = bytes()
             self.new_version = new_version
             result = Encoder(msg_code, param).packaging()
             self.rm.send_message.put(result)
@@ -80,7 +80,7 @@ class upgrade_model:
             self.rm.send_message.put(result)
             self.new_version["current_upgrade_single_num"] = current_upgrade_index + 1
         else:
-            self.download_new_version("22", 0)
+            self.download_new_version_status("22", 0)
 
     def download_new_version_status(self, msg_code, params):
         if isinstance(params, dict):
@@ -95,35 +95,39 @@ class upgrade_model:
         param = [0]
         result = Encoder(msg_code, param).packaging()
         self.rm.send_message.put(result)
+        time.sleep(5)
         try:
-            zip_path = file_u.get_project_path() + "upgrade\\version\\" + self.new_version[
+            zip_path = conf_u.get_project_path() + "upgrade\\version\\" + self.new_version[
                 "new_version"] + "\\" + "UpgradePackage.zip"
             file_u.write_file(self.new_version["upgrade_data"], zip_path)
-            res_path = zip_path + "\\UpgradePackage"
+
+            res_path = conf_u.get_project_path() + "upgrade\\version\\" + self.new_version[
+                "new_version"] + "\\UpgradePackage"
             file_u.zip_file(zip_path, res_path)
-            conf = conf_u.read_action(res_path + "\\UpgradePackageInfo.yaml")["install_info"]
+
+            conf = conf_u.read_action("upgrade\\version\\" + self.new_version[
+                "new_version"] + "\\UpgradePackage\\UpgradePackageInfo.yaml")["install_info"]
             if self._verify_version(conf):
                 self.upgrade_status = 2
                 self.rm.execute_running_marking = 1
                 index = 60
                 while self.rm.running_status != 3:
                     if index < 0:
-                        self.upgrade_status_com("24", 10)
                         log.error("退出失败")
                         return
                     time.sleep(5)
                     index -= 5
-                if file_u.run_py_file(res_path + "\\install.py") == 0:
+                if file_u.run_py_file(res_path + "\\install.py " + res_path) == 0:
                     self.rm.execute_running_marking = 0
                     index = 60
                     while self.rm.running_status != 0:
                         if index < 0:
-                            self.upgrade_status_com("24", 10)
                             log.error("启动失败")
                             return
                         time.sleep(5)
                         index -= 5
                     self.upgrade_status_com("24", 0)
+                    file_u.del_dir_file(res_path)
                 else:
                     self.upgrade_status_com("24", 10)
                     log.error("安装失败")
@@ -161,10 +165,11 @@ class upgrade_model:
                 pass
             if not self.rm.upgrade.empty():
                 upgrade = self.rm.upgrade.get()
-                msg_code, command_name, params = Decode(upgrade).parse_msg()
+                u = upgrade.split(",")
+                msg_code, command_name, params = Decode(u[1]).parse_msg()
                 self.main(command_name, msg_code, params)
 
-    def _write_conf(self,old_version, new_version):
+    def _write_conf(self, old_version, new_version):
         old_conf = conf_u.read_action(r"conf\resource\current_version.yaml")
         old_conf["current_version"] = new_version
         old_conf["last_version"] = old_version

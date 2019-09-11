@@ -55,3 +55,9 @@ class Decode:
             log.error("解析命令失败，请核对配置文件中是否有该命令")
             log.exception(sys.exc_info())
             return None, None, None
+
+if __name__ == '__main__':
+    msg_code, command_name, params = Decode("FFFE0114B37F001656312E3000000000000000000000000001F400050000").parse_msg()
+    print(msg_code)
+    print(command_name)
+    print(params)

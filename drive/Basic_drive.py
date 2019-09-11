@@ -9,7 +9,7 @@ class Basic_drive:
     pin_values = [Gpio.LOW, Gpio.HIGH]
     pull_resistors = [Gpio.PUD_DOWN, Gpio.PUD_UP]
 
-    def __init__(self, rm, pin_in_id=None, pin_out_id=None):
+    def __init__(self, rm, pin_in_id=[], pin_out_id=[]):
         self.pin_in_id = pin_in_id
         self.pin_out_id = pin_out_id
         self.gio = Gpio
