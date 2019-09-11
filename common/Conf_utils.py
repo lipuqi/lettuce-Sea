@@ -8,7 +8,7 @@ import os
 
 # 获取项目根目录
 def get_project_path():
-    return r"/home/pi/lettuce-Sea"
+    return r"/home/pi/lettuce-Sea/"
 
 
 # 读取配置文件
