@@ -77,17 +77,26 @@ def quit_sys():
 
 
 if __name__ == '__main__':
-    upgrade_thread.start()
-    while True:
-        if rm.running_status == 4:
-            break
-        if rm.execute_running_marking == 0 and not running:
-            rm.running_status = 1
-            if start_sys():
-                running = True
-                rm.running_status = 0
-            else:
-                log.info("----启动失败，进入退出流程----")
+    try:
+        upgrade_thread.start()
+        while True:
+            if rm.running_status == 4:
+                break
+            if rm.execute_running_marking == 0 and not running:
+                rm.running_status = 1
+                if start_sys():
+                    running = True
+                    rm.running_status = 0
+                else:
+                    log.info("----启动失败，进入退出流程----")
+                    rm.running_status = 2
+                    if quit_sys():
+                        rm.running_status = 3
+                        rm.execute_running_marking = 3
+                        running = False
+                    else:
+                        rm.running_status = 4
+            if rm.execute_running_marking == 1 and running:
                 rm.running_status = 2
                 if quit_sys():
                     rm.running_status = 3
@@ -95,21 +104,15 @@ if __name__ == '__main__':
                     running = False
                 else:
                     rm.running_status = 4
-        if rm.execute_running_marking == 1 and running:
-            rm.running_status = 2
-            if quit_sys():
-                rm.running_status = 3
-                rm.execute_running_marking = 3
-                running = False
-            else:
-                rm.running_status = 4
-        if rm.execute_running_marking == 2 and running:
-            rm.running_status = 2
-            if quit_sys():
-                rm.running_status = 3
-                running = False
-                rm.execute_running_marking = 3
-                time.sleep(5)
-                rm.execute_running_marking = 0
-            else:
-                rm.running_status = 4
+            if rm.execute_running_marking == 2 and running:
+                rm.running_status = 2
+                if quit_sys():
+                    rm.running_status = 3
+                    running = False
+                    rm.execute_running_marking = 3
+                    time.sleep(5)
+                    rm.execute_running_marking = 0
+                else:
+                    rm.running_status = 4
+    except KeyboardInterrupt:
+        quit_sys()

@@ -27,7 +27,7 @@ class Led(Basic_drive):
         else:
             self._status = 1
         self._pattern = pattern
-        self.log.info("LED设置为" + pattern)
+        self.log.info("LED设置为" + str(pattern))
 
     # 开关设置
     def led_on_off(self, par):
@@ -56,7 +56,6 @@ class Led(Basic_drive):
     def gpio_quit(self):
         self.led_stop()
         super().gpio_quit()
-
 
 
 
