@@ -55,14 +55,14 @@ def quit_sys():
     global mm, core, lm, jm
     log.info("----执行退出流程----")
     try:
+        if jm:
+            jm.scheduler.shutdown()
         if mm:
             mm.quit()
         if lm:
             lm.quit()
         if core:
             core.quit_model()
-        if jm:
-            jm.scheduler.shutdown()
         mm = None
         core = None
         lm = None
