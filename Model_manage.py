@@ -37,10 +37,6 @@ class Model_manage:
             log.exception(sys.exc_info())
 
     def _import_util(self, drive_path):
-        print(drive_path)
-        print(type(drive_path))
-        print(sys.modules)
-        print(type(sys.modules))
         if drive_path in sys.modules:
             del sys.modules[drive_path]
         return importlib.import_module(drive_path)
