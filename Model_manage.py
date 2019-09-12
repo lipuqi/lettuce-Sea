@@ -20,19 +20,27 @@ class Model_manage:
 
     # 模块构造器
     def model_initializer(self, model_id=None):
-        model_manage = conf_u.read_action(r"model/model_manage.yaml")
-        if not model_id:
-            model_id = model_manage["Model"]["current_model"]
-        self.current_model_id = model_id
-        model_conf = model_manage["model_list"][self.current_model_id]
-        drive_list = conf_u.read_action(r"drive/drive_manage.yaml")["drive_list"]
-        drive_import = {}
-        for drive in model_conf["model_drive"]:
-            drive_import[drive] = self._import_util(drive_list[drive])
-        self.current_connect_model = self._import_util(drive_list[model_conf["model_connect"]]).connect_drive(self.rm)
-        self.current_model = self._import_util(model_conf["model_path"]).main_model(self.rm, drive_import)
+        try:
+            model_manage = conf_u.read_action(r"model/model_manage.yaml")
+            if not model_id:
+                model_id = model_manage["Model"]["current_model"]
+            self.current_model_id = model_id
+            model_conf = model_manage["model_list"][self.current_model_id]
+            drive_list = conf_u.read_action(r"drive/drive_manage.yaml")["drive_list"]
+            drive_import = {}
+            for drive in model_conf["model_drive"]:
+                drive_import[drive] = self._import_util(drive_list[drive])
+            self.current_connect_model = self._import_util(drive_list[model_conf["model_connect"]]).connect_drive(self.rm)
+            self.current_model = self._import_util(model_conf["model_path"]).main_model(self.rm, drive_import)
+        except KeyError:
+            log.error("模块没有找到指定的执行方法")
+            log.exception(sys.exc_info())
 
     def _import_util(self, drive_path):
+        print(drive_path)
+        print(type(drive_path))
+        print(sys.modules)
+        print(type(sys.modules))
         if drive_path in sys.modules:
             del sys.modules[drive_path]
         return importlib.import_module(drive_path)
