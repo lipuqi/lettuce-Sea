@@ -1,5 +1,6 @@
 import serial
 from common import *
+from drive.Basic_connect_drive import Basic_connect_drive
 import drive.nb_bc35g as nb_model
 import drive.nb_bc35g.AT_order as AT_order
 import time
@@ -14,11 +15,11 @@ message = nb_model.decode().result_cla(AT_order.get_msg_order)
 inform = nb_model.decode().result_cla(AT_order.get_inform_order)
 
 
-class Nb_bc35g:
+class connect_drive(Basic_connect_drive):
 
     def __init__(self, running_manage):
+        super(connect_drive, self).__init__(running_manage)
         self._basic_cof = conf_u.read_action(r"drive/nb_bc35g/nb_bc35g_conf.yaml")["Basic_cof"]
-        self.rm = running_manage
 
         self.port = serial.Serial(self._basic_cof["serial_port"], self._basic_cof["baud_rate"],
                                   timeout=self._basic_cof["time_out"])  # 串口，波特率，超时时间
@@ -186,7 +187,7 @@ class Nb_bc35g:
         return True
 
     # 退出
-    def quit_nb(self):
+    def break_connect(self):
         self.access_idle()
         self.execute_at(nb_model.AT_order.RF_order, "0")
         self.rm.read_data_thread_quit = True

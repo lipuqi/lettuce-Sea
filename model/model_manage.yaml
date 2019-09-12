@@ -1,0 +1,9 @@
+Model:
+  current_model: 0
+
+model_list:
+  - model_name: led_bc35g_model
+    model_connect: nb_bc35g
+    model_path: model.led_bc35g_model.led_bc35g
+    model_drive:
+      - led

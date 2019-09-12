@@ -1,5 +1,5 @@
-from model import *
 from common import *
+from model.Decode import Decode
 
 # ------------------------------------------------------------------------------
 # 监听管理
@@ -28,8 +28,8 @@ class Listener_manage:
             if not self.rm.new_message.empty():
                 new_message = self.rm.new_message.get()
                 nm = new_message.split(",")
-                model, command_name, params = decode.Decode(nm[1], self.core_model.conf,
-                                                            self.mm.current_model.conf).parse_data()
+                model, command_name, params = Decode(nm[1], self.core_model.conf,
+                                                     self.mm.current_model.conf).parse_data()
                 if model == 0:
                     self.core_model.main(command_name, params=params)
                 else:
@@ -57,6 +57,3 @@ class Listener_manage:
         self.rm.new_message_quit = True
         self.rm.send_message_quit = True
         self.rm.inform_quit = True
-
-
-

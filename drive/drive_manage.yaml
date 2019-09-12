@@ -1,0 +1,5 @@
+drive_list:
+  led:
+    drive_path: drive.led.Led
+  nb_bc35g:
+    drive_path: drive.nb_bc35g.Nb_bc35g

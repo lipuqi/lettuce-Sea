@@ -1,5 +1,0 @@
-model_list:
-  led_bc35g_model:
-    model_id: 0
-    model_main: led_bc35g
-    model_connect: nb_bc35g

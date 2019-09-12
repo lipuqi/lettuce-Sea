@@ -9,12 +9,12 @@ import sys
 log = Logger().logger
 
 
-class led_bc35g:
-    def __init__(self, running_manage, led):
+class main_model:
+    def __init__(self, running_manage, **drive):
         self.conf = conf_u.read_action(r"model/led_bc35g_model/led_profile.yaml")["Profile"]
         self.model_conf = conf_u.read_action(r"model/led_bc35g_model/led_model_conf.yaml")
         self.rm = running_manage
-        self.led = led
+        self.led = drive["led"].Led(running_manage)
         self.action_switch = {
             "current_led_status": self.current_led_status_properties,
             "current_led_pattern": self.current_led_pattern_properties,
