@@ -29,8 +29,8 @@ class Model_manage:
             drive_list = conf_u.read_action(r"drive/drive_manage.yaml")["drive_list"]
             drive_import = {}
             for drive in model_conf["model_drive"]:
-                drive_import[drive] = self._import_util(drive_list[drive])
-            self.current_connect_model = self._import_util(drive_list[model_conf["model_connect"]]).connect_drive(self.rm)
+                drive_import[drive] = self._import_util(drive_list[drive]["drive_path"])
+            self.current_connect_model = self._import_util(drive_list[model_conf["model_connect"]][["drive_path"]]).connect_drive(self.rm)
             self.current_model = self._import_util(model_conf["model_path"]).main_model(self.rm, drive_import)
         except KeyError:
             log.error("模块没有找到指定的执行方法")
