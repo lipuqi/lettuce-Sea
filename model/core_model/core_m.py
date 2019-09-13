@@ -40,6 +40,7 @@ class core_m:
         command_name = "switch_model"
         result_param = [params["mid"]]
         try:
+            self.mm.model_initializer(params["model_id"])
             result_param.append(0)
             result_param.append(0)
         except:
