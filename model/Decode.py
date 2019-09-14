@@ -20,11 +20,10 @@ class Decode:
         if self.data[:1] == "0":
             conf = self.core_conf
             model = 0
-        elif self.data[:1] == "1":
+        else:
             conf = self.current_model_conf
             model = 1
-        else:
-            return None, None, None
+
         try:
             command = conf["commands"][self.data[:2]]
             command_name = command["command_name"]

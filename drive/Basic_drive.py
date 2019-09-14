@@ -56,6 +56,15 @@ class Basic_drive:
             self._pwm[pin]["pwm_obj"].stop()
             del self._pwm[pin]
 
+    # 复位
+    def drive_reset(self):
+        if self.pin_out_id:
+            for pin_io in self.pin_out_id:
+                for io_name in list(pin_io.keys()):
+                    pin_id = pin_io[io_name]["pin_id"]
+                    default = pin_io[io_name]["default"]
+                    self.gio.output(pin_id, self.pin_values[default])
+
     # 退出
     def gpio_quit(self):
         self.running_manage.clear_pin(self.pin_in_id + self.pin_out_id)

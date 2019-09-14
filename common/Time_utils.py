@@ -31,7 +31,7 @@ class Time_utils:
     _format2 = '%Y-%m-%d %H:%M'
     _format3 = '%Y-%m-%d'
 
-    def __init__(self, time_date):
+    def __init__(self, time_date=None):
         self._time_date = time_date
 
     def set_time_date(self, date):

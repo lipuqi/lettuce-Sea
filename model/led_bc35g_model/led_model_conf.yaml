@@ -1,9 +1,4 @@
 Pattern:
-  - name: on_off
-    param:
-      0:
-        frequency: 0
-        dc: 0
   - name: flicker
     param:
       1:

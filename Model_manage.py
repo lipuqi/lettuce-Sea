@@ -21,10 +21,14 @@ class Model_manage:
     def model_initializer(self, model_id=None):
         try:
             model_manage = conf_u.read_action(r"model/model_manage.yaml")
-            if not model_id:
-                model_id = model_manage["Model"]["current_model"]
-            self.current_model_id = model_id
-            model_conf = model_manage["model_list"][self.current_model_id]
+            m_id = None
+            if model_id:
+                m_id = model_id
+            else:
+                m_id = model_manage["Model"]["current_model"]
+
+            log.info("切换模块ID为 " + str(m_id))
+            model_conf = model_manage["model_list"][m_id]
             drive_list = conf_u.read_action(r"drive/drive_manage.yaml")["drive_list"]
             drive_import = {}
             for drive in model_conf["model_drive"]:
@@ -35,11 +39,21 @@ class Model_manage:
         except KeyError:
             log.error("模块没有找到指定的执行方法")
             log.exception(sys.exc_info())
+        else:
+            log.info("切换模块成功")
+            if model_id:
+                self.current_model_id = model_id
+                self._write_conf(model_id)
 
     def _import_util(self, drive_path):
         if drive_path in sys.modules:
             del sys.modules[drive_path]
         return importlib.import_module(drive_path)
+
+    def _write_conf(self, new_model_id):
+        old_conf = conf_u.read_action(r"model/model_manage.yaml")
+        old_conf["Model"]["current_model"] = new_model_id
+        conf_u.overlay_action(r"model/model_manage.yaml", old_conf)
 
     def quit(self):
         self.current_model.quit_model()

@@ -47,14 +47,14 @@ class Led(Basic_drive):
         return self._pattern
 
     # 复位
-    def led_stop(self):
+    def drive_reset(self):
         super()._pwm_stop(self._main_io)
-        self.gio.output(self._main_io, self.pin_values[0])
+        super().drive_reset()
         self._status = 0
         self._pattern = None
 
     def gpio_quit(self):
-        self.led_stop()
+        self.drive_reset()
         super().gpio_quit()
 
 
