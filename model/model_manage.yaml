@@ -3,7 +3,16 @@ Model:
 
 model_list:
   - model_name: led_bc35g_model
+    model_version: m01
     model_connect: nb_bc35g
     model_path: model.led_bc35g_model.led_bc35g
     model_drive:
       - led
+  - model_name: back_car_model
+    model_version: m01
+    model_connect: nb_bc35g
+    model_path: model.back_car_model.back_car
+    model_drive:
+      - led
+      - buzzer
+      - ultrasonic_sensors

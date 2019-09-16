@@ -106,7 +106,7 @@ class upgrade_model:
             file_u.zip_file(zip_path, res_path)
 
             conf = conf_u.read_action("upgrade/version/" + self.new_version[
-                "new_version"] + "/UpgradePackage/UpgradePackageInfo.yaml")["install_info"]
+                "new_version"] + "/UpgradePackage/UpgradePackageInfo.yaml")["package_info"]
             if self._verify_version(conf):
                 self.upgrade_status = 2
                 self.rm.execute_running_marking = 1
