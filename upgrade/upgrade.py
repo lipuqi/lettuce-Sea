@@ -1,13 +1,15 @@
 from common import *
 from upgrade.Encoder import Encoder
 from upgrade.Decode import Decode
+from drive.upgrade_drive import upgrade_drive
+from model.upgrade_model import upgrade_model
 import sys
 import time
 
 log = Logger().logger
 
 
-class upgrade_model:
+class upgrade:
     def __init__(self, running_manage):
         self.machine_code = conf_u.read_action(r"conf/resource/basic_conf.yaml")["Basic_info"]["machine_code"]
         self.current_version = ""
@@ -106,8 +108,8 @@ class upgrade_model:
             file_u.zip_file(zip_path, res_path)
 
             conf = conf_u.read_action("upgrade/version/" + self.new_version[
-                "new_version"] + "/UpgradePackage/UpgradePackageInfo.yaml")["package_info"]
-            if self._verify_version(conf):
+                "new_version"] + "/UpgradePackage/UpgradePackageInfo.yaml")
+            if self._verify_version(conf["package_info"]):
                 self.upgrade_status = 2
                 self.rm.execute_running_marking = 1
                 index = 60
@@ -117,7 +119,7 @@ class upgrade_model:
                         return
                     time.sleep(5)
                     index -= 5
-                if file_u.run_py_file(res_path + "/install.py " + res_path) == 0:
+                if self._upgrade(conf["package_info"]["upgrade_type"], res_path, conf["install"]):
                     self.rm.execute_running_marking = 0
                     index = 60
                     while self.rm.running_status != 0:
@@ -158,6 +160,15 @@ class upgrade_model:
                 return True
             else:
                 return False
+
+    def _upgrade(self, upgrade_type, upgrade_path, install_list):
+        if upgrade_type == "model":
+            return upgrade_model(upgrade_path, install_list).execute_upgrade()
+        elif upgrade_type == "drive":
+            return upgrade_drive(upgrade_path, install_list).execute_upgrade()
+        else:
+            log.error("执行升级出现问题")
+            return False
 
     def listener_upgrade(self):
         while not self.rm.upgrade_quit:

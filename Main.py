@@ -5,7 +5,7 @@ from Model_manage import Model_manage
 from Listener_manage import Listener_manage
 from model.core_model.core_m import core_m
 from job.Job_manage import Job_manage
-from upgrade.upgrade_model import upgrade_model
+from upgrade.upgrade import upgrade
 import sys, time, gc
 
 log = Logger().logger
@@ -13,8 +13,8 @@ log = Logger().logger
 running = False
 
 rm = Running_manage()
-um = upgrade_model(rm)
-upgrade_thread = threading.Thread(target=um.listener_upgrade)
+upgrade = upgrade(rm)
+upgrade_thread = threading.Thread(target=upgrade.listener_upgrade)
 
 mm = None
 core = None
@@ -29,7 +29,7 @@ def start_sys():
         rm.init()
         mm = Model_manage(rm)
         core = core_m(rm, mm)
-        lm = Listener_manage(rm, mm, core, um)
+        lm = Listener_manage(rm, mm, core)
         time.sleep(1)
         log.info("----开始启动通信模块，消息处理模块监听----")
         threading.Thread(target=lm.listener_connect_model).start()
