@@ -1,0 +1,64 @@
+Pattern:
+  led:
+    param:
+      2:
+        frequency: 0.5
+        dc: 20
+      50:
+        frequency: 2
+        dc: 15
+      100:
+        frequency: 5
+        dc: 10
+
+  buzzer:
+    param:
+      2:
+        frequency: 0.5
+        dc: 20
+      50:
+        frequency: 2
+        dc: 15
+      100:
+        frequency: 5
+        dc: 10
+
+
+model_conf:
+  alarm:
+    one_level:
+      min_val: 0
+      max_val: 100
+      led:
+        pattern: -1
+        val: 1
+      buzzer:
+        pattern: -1
+        val: 1
+    three_level:
+      min_val: 100
+      max_val: 300
+      led:
+        pattern: 0
+        val: 50
+      buzzer:
+        pattern: 0
+        val: 50
+    four_level:
+      min_val: 300
+      max_val: 500
+      led:
+        pattern: 0
+        val: 2
+      buzzer:
+        pattern: 0
+        val: 2
+    no_alarm:
+      min_val: 500
+      max_val: 2000
+      led:
+        pattern: -1
+        val: 0
+      buzzer:
+        pattern: -1
+        val: 0

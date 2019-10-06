@@ -49,7 +49,9 @@ class main_model:
         command_name = "switch_led_pattern"
         result_param = [params["mid"]]
         try:
-            pattern = self .model_conf["Pattern"][params["led_pattern"]]
+            if params["led_pattern"] == 0:
+                raise RuntimeError('参数非法')
+            pattern = self.model_conf["Pattern"][params["led_pattern"]]
             pattern_param = pattern["param"][params["pattern_val"]]
             self.led.led_pattern(params["led_pattern"], pattern_param["frequency"], pattern_param["dc"])
             result_param.append(0)
@@ -73,3 +75,4 @@ class main_model:
 
     def quit_model(self):
         self.led.gpio_quit()
+        self.led.gio.cleanup()

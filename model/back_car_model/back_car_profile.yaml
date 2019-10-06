@@ -1,0 +1,34 @@
+Profile:
+  model_type: '2'
+  properties:
+    current_back_car_status:
+      message_id: '20'
+      paras:
+        - data_name: back_car_status
+          data_type: int
+          data_length: 1
+          default_data: 0
+
+  commands:
+    '21':
+      command_name: switch_back_car
+      req:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+        - data_name: back_car_status
+          data_type: int
+          data_length: 1
+      res:
+        - data_name: mid
+          data_type: int
+          data_length: 2
+          default_data: 0
+        - data_name: errcode
+          data_type: int
+          data_length: 1
+          default_data: 0
+        - data_name: result
+          data_type: int
+          data_length: 1
+          default_data: 0

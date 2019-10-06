@@ -29,16 +29,7 @@ class upgrade_model:
                         return False
 
                 is_continue = False
-                for i in range(0, len(self.model_m["model_list"])):
-                    if name == self.model_m["model_list"][i]["model_name"]:
-                        if version == self.model_m["model_list"][i]["model_version"]:
-                            is_continue = True
-                            break
-                        del self.model_m["model_list"][i]
-                        break
-
-                if is_continue:
-                    continue
+                is_add = True
 
                 new_model = {}
                 new_model["model_name"] = name
@@ -46,7 +37,21 @@ class upgrade_model:
                 new_model["model_connect"] = model["connect"]
                 new_model["model_path"] = main_path
                 new_model["model_drive"] = model_drive
-                self.model_m["model_list"].append(new_model)
+
+                for i in range(0, len(self.model_m["model_list"])):
+                    if name == self.model_m["model_list"][i]["model_name"]:
+                        is_add = False
+                        if version == self.model_m["model_list"][i]["model_version"]:
+                            is_continue = True
+                            break
+                        self.model_m["model_list"][i] = new_model
+                        break
+
+                if is_continue:
+                    continue
+
+                if is_add:
+                    self.model_m["model_list"].append(new_model)
 
                 for file in model["file"]:
                     file_u.copy_file(self.up + "/" + name + "/" + file, model_path + name)

@@ -1,0 +1,6 @@
+Pin:
+  out_io:
+    - buzzer_out:
+        pin_id: 18
+        default: 0
+  in_io:

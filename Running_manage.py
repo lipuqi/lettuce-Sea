@@ -75,3 +75,10 @@ class Running_manage:
                 self._pin_in_io.remove(ios)
             while ios in self._pin_in_io:
                 self._pin_in_io.remove(ios)
+
+    def pause(self, status):
+        self.new_message_pause = status
+        self.send_message_pause = status
+        self.inform_pause = status
+        self.read_data_thread_pause = status
+

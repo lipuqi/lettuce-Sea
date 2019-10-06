@@ -1,4 +1,5 @@
 Model:
+  default_model: 0
   current_model: 0
 
 model_list:

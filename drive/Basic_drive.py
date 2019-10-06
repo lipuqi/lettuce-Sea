@@ -68,4 +68,3 @@ class Basic_drive:
     # 退出
     def gpio_quit(self):
         self.running_manage.clear_pin(self.pin_in_id + self.pin_out_id)
-        self.gio.cleanup()

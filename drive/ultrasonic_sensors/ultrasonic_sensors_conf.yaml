@@ -1,0 +1,9 @@
+Pin:
+  out_io:
+    - ultrasonic_sensors_out:
+        pin_id: 17
+        default: 0
+  in_io:
+    - ultrasonic_sensors_in:
+        pin_id: 27
+        default: 0
